@@ -1,0 +1,40 @@
+# https://github.com/posquit0/hugo-awesome-identity
+
+baseURL = "https://kowalski.xyz"
+languageCode = "en-us"
+title = "Mateusz Kowalski"
+theme = "awesome-identity"
+
+## Profile Configurations
+# [params.profile]
+#   portrait = "photo.jpg"
+#   firstname = "Mateusz"
+#   lastname = "Kowalski"
+#   title = "Software Engineer / Site Reliability Engineer / Infrastructure Architect"
+#   bio = """
+# Based in Switzerland. Former White-Hat. Deep experience in designing and deploying architectures for large-scale systems. Strong background in Python and web applications security. Always working with cutting-edge technologies.
+
+# Computer engineering, physics, mathematics for governments, big enterprises as well as small businesses.
+
+# Physics summer camps for high-school students at CERN. Mentor at Django Girls.
+# """
+
+[params.contacts]
+  github = "mkowalski"
+  linkedin = "mateuszkowalski"
+  instagram = "truptutuptu"
+
+# [[params.actions]]
+#   name = "PGP"
+#   url = "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xa706dd78467d062cd8f48745759e193f489dc659"
+#   #url = "http://keys.gnupg.net/pks/lookup?op=get&search=0x759E193F489DC659"
+#   #url = "https://keyserver.ubuntu.com/pks/lookup?search=0x759E193F489DC659&fingerprint=on&op=index"
+
+# [[params.actions]]
+#   name = "SSH"
+#   url = "https://github.com/mkowalski.keys"
+
+## Footer Configurations
+[params.footer]
+  #copyright = "© 2019-2020 Byungjin Park. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
+  poweredBy = false
